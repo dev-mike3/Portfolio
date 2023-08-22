@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.welcome{
+    text-align: center;
+    color: #067bc2;
+}
+.michael{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #99735F;
+}
+.intro{
+    display: flex;
+}
+.aboutme{
+    padding-top: 10%;
+    padding-left: 0.8%;
+    font-size: 150%;
+    line-height: 150%;
+    
+}
+.details{
+    display: grid;
+
+    width: 1200px;
+    height: 600px;
+    margin-left: 7%;
+    padding-top: 4%;
+    margin-bottom: -7%;
+    
+
+   
+    grid-template-areas:
+      "header  main"
+      "header  main";
+      
+    grid-template-rows: 1fr  1fr;
+    grid-template-columns: 1fr  1fr;
+}
+
+.details > header {
+    grid-area: header;
+    border-style: solid;
+    width: 78%;
+    border-radius: 5px;
+    border-radius: 50px;
+    border-width: 7px;
+    border-color: #4E7285;
+    height: 80%;
+    
+    
+  }
+  
+  
+  
+  .details   > main {
+    grid-area: main;
+    border-style: solid;
+    margin-left: 0%;
+    border-radius: 5px;
+    width: 78%;
+    border-radius: 50px;
+    border-width: 7px;
+    border-color: #4E7285;
+    height: 80%;
+  }
+
+  h2{
+    text-align: center;
+  }
+  .info{
+    padding: 3%;
+    font-size: 120%;
+  }
+  .navs{
+    margin-left: 60%;
+    padding-left: 90px;
+    justify-content: space-between;
+    padding-right: 0%;
+    display: flex;
+    
+  }
+  .navi{
+    margin-right: 10.6%;
+  }
+  .container{
+    display: flex;
+  }
+address{
+    margin-top: 1.7%;
+    margin-left: 5%;
+}
+button{
+    background-color: #067bc2;
+    border-radius: 30px;
+    color: plum;
+    border-color: rgb(54, 120, 177);
+    box-shadow: 400%;
+    cursor: pointer;
+
+}
+button:hover{
+  font-size: 90%;
+}
+.projects{
+  line-height: 7vh;
+  text-align: center;
+
+}
+@media screen and (max-width: 600px) {
+.intro{
+  display: block;
+}
+.michael{
+  display: flex;
+  justify-content: center;
+    height: 60vw;
+    width: 60vw;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #99735F;
+}
+.details{
+  display: block;
+  width: 100%;
+  
+}
+.projects{
+  line-height: 5vh;
+  
+}
+.details > header {
+  
+  width: 80%;
+  height: 80%;
+  margin-bottom: 5%;
+}
+.details > main {
+  
+  width: 80%;
+  height: 80%;
+  height: 65%;
+  
+  
+}
+.navs{
+  display: none;
+}
+.container{
+ padding-top: 90%;
+}
+.michael{
+  margin-left: 15%;
+}
+
+}
