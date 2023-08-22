@@ -4,8 +4,11 @@
   box-sizing: 0;
 }
 .welcome{
+  
     text-align: center;
     color: #067bc2;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .michael{
     height: 30vw;
@@ -154,10 +157,15 @@ button:hover{
   display: none;
 }
 .container{
- padding-top: 90%;
+ padding-top: 100%;
+ display: block;
+ 
 }
 .michael{
   margin-left: 15%;
+}
+address{
+  padding-top: 5%;
 }
 
 }
