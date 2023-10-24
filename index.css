@@ -166,6 +166,8 @@ button:hover{
   height: 65%;
   
   
+  
+  
 }
 .navs{
   display: none;
@@ -173,6 +175,8 @@ button:hover{
 .container{
  padding-top: 100%;
  display: block;
+ padding-top: 110%;
+ 
  
 }
 .michael{
@@ -180,6 +184,22 @@ button:hover{
 }
 address{
   padding-top: 5%;
+}
+
+@media screen and (min-height: 400px) {
+
+  .details > main {
+  
+  padding-bottom: 18%;
+  margin-bottom: 20%;
+  
+  }
+
+  .container{
+    margin-top: 5%;
+    
+   }
+
 }
 
 }
