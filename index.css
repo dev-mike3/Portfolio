@@ -10,6 +10,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 .michael{
     height: 30vw;
     width: 30vw;
@@ -17,7 +18,7 @@
     border-style: solid;
     border-width: 2px;
     border-color: #99735F;
-    
+
 }
 .intro{
     display: flex;
@@ -102,7 +103,7 @@ address{
 }
 button{
     background-color: #067bc2;
-    border-radius: 30px;
+    border-radius: 5px;
     color: plum;
     border-color: rgb(54, 120, 177);
     box-shadow: 400%;
@@ -112,10 +113,22 @@ button{
 button:hover{
   font-size: 90%;
 }
+.twitter{
+ margin-left: 5px;
+}
 .projects{
   line-height: 7vh;
   text-align: center;
 
+}
+.icons{
+  padding-top: 10%;
+}
+.text{
+  padding-top: -80%;
+}
+.media{
+  padding-left: 15%;
 }
 @media screen and (max-width: 600px) {
 .intro{
